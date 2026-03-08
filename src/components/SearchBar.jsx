@@ -54,7 +54,6 @@ export default function SearchBar({ variant = 'hero' }) {
                     <TextField {...params} label="From City" placeholder="Select origin" size={isHero ? 'medium' : 'small'} />
                 )}
                 sx={{ flex: 1, minWidth: 180 }}
-                disablePortal
             />
 
             <Button
@@ -75,7 +74,6 @@ export default function SearchBar({ variant = 'hero' }) {
                     <TextField {...params} label="To City" placeholder="Select destination" size={isHero ? 'medium' : 'small'} />
                 )}
                 sx={{ flex: 1, minWidth: 180 }}
-                disablePortal
             />
 
             <Button
